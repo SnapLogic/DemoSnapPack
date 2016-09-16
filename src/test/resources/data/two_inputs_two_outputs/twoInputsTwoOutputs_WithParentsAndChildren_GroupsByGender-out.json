@@ -1,0 +1,26 @@
+{
+  "output_female": [
+    {
+      "name": "Sarah",
+      "gender": "female",
+      "processed": "True"
+    },
+    {
+      "name": "Lucy",
+      "gender": "female",
+      "processed": "True"
+    }
+  ],
+  "output_male": [
+    {
+      "name": "Robin",
+      "gender": "male",
+      "processed": "True"
+    },
+    {
+      "name": "Aidan",
+      "gender": "male",
+      "processed": "True"
+    }
+  ]
+}

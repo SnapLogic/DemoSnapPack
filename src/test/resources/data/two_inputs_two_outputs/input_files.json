@@ -1,0 +1,22 @@
+{
+  "input0": [
+    {
+      "name": "Robin",
+      "gender": "male"
+    },
+    {
+      "name": "Sarah",
+      "gender": "female"
+    }
+  ],
+  "input1": [
+    {
+      "name": "Aidan",
+      "gender": "male"
+    },
+    {
+      "name": "Lucy",
+      "gender": "female"
+    }
+  ]
+}

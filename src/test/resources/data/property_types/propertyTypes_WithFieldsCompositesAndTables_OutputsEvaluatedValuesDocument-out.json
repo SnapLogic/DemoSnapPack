@@ -1,0 +1,22 @@
+{
+  "output0": [
+    {
+      "password_prop": "snaplogic",
+      "file_browser_prop": "file1.json",
+      "composite": {
+        "child_file_browser_prop": "file2.json",
+        "child_prop": "child"
+      },
+      "table": [
+        {
+          "column_file_browser_prop": "file3.json",
+          "column_prop": "col1"
+        },
+        {
+          "column_file_browser_prop": "file4.json",
+          "column_prop": "col2"
+        }
+      ]
+    }
+  ]
+}

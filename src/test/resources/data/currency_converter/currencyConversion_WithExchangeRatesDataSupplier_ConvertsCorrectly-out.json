@@ -1,0 +1,21 @@
+{
+  "output0" : [ {
+    "AUD" : 17.480520,
+    "original" : {
+      "amount" : 12.345,
+      "to" : "AUD"
+    }
+  }, {
+    "GBP" : 28226.5878876,
+    "original" : {
+      "amount" : 43534.02,
+      "to" : "GBP"
+    }
+  }, {
+    "EUR" : 8873.812530,
+    "original" : {
+      "amount" : 9999,
+      "to" : "EUR"
+    }
+  } ]
+}

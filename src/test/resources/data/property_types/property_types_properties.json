@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "password_prop": {
+      "value": "snaplogic"
+    },
+    "file_browser_prop": {
+      "expression": false,
+      "value": "file1.json"
+    },
+    "parent_prop": {
+      "value": {
+        "child_file_browser_prop": {
+          "expression": false,
+          "value": "file2.json"
+        },
+        "child_prop": {
+          "value": "child"
+        }
+      }
+    },
+    "table_prop": {
+      "value": [
+        {
+          "column_file_browser_prop": {
+            "expression": false,
+            "value": "file3.json"
+          },
+          "column_prop": {
+            "value": "col1"
+          }
+        },
+        {
+          "column_file_browser_prop": {
+            "expression": false,
+            "value": "file4.json"
+          },
+          "column_prop": {
+            "value": "col2"
+          }
+        }
+      ]
+    }
+  }
+}

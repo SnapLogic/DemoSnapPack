@@ -1,0 +1,8 @@
+{
+  "error0": [{
+    "resolution": "Ensure the count property is greater than or equal to zero",
+    "error": "Invalid count value -2",
+    "reason": "Value of count property cannot be negative",
+    "stacktrace": "com.snaplogic.snap.api.SnapDataException: Invalid count value -2"
+  }]
+}

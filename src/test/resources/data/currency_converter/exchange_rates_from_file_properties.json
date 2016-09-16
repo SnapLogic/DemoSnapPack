@@ -1,0 +1,7 @@
+{
+  "settings" : {
+    "inputFile" : {
+      "value" : "file:///exchange_rates_file.json"
+    }
+  }
+}
