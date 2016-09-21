@@ -15,6 +15,7 @@ import com.snaplogic.snap.test.harness.SnapTestRunner;
 import com.snaplogic.snap.test.harness.TestFixture;
 import com.snaplogic.snap.test.harness.TestResult;
 
+import org.junit.Ignore;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
@@ -65,11 +66,13 @@ public class DocGeneratorTest {
 
     // "expectedErrorPath" specifies the folder that contains the
     // "docGenerator_WithExpectedErrorPath_OutputsErrorDocumentCorrectly-err.json" file
+    @Ignore("Disabled until CRLF fix in Fall 2016 release; will pass on LF-based operating systems")
     @TestFixture(snap = DocGenerator.class,
             errors = "error0",
             expectedErrorPath = "data/doc_generator",
             properties = "data/doc_generator/doc_generator_properties.json",
             propertyOverrides = {"$.settings.count.value", "-2"})
-    public void docGenerator_WithExpectedErrorPath_OutputsErrorDocumentCorrectly() throws Exception {
+    public void docGenerator_WithExpectedErrorPath_OutputsErrorDocumentCorrectly()
+            throws Exception {
     }
 }

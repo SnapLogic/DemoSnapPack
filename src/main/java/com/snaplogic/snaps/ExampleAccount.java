@@ -98,7 +98,7 @@ public class ExampleAccount implements Account<String>, ValidatableAccount<Strin
         }
 
         return encodeBase64String(
-                (userId + ":" + expiration + ":" + new String(md5)).getBytes(UTF_8));
+                (userId + ":" + expiration + ":" + new String(md5, UTF_8)).getBytes(UTF_8));
     }
 
     @Override

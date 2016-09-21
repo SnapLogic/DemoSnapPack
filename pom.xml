@@ -503,6 +503,7 @@
             <groupId>com.snaplogic</groupId>
             <artifactId>jfilesystem</artifactId>
             <version>${jsdk.version}</version>
+            <scope>provided</scope>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>

@@ -84,9 +84,9 @@ public class CharacterCounter extends SimpleBinaryWriteSnap {
             // for each letter of English alphabet, write a line with the number of times
             // it appeared in the input data
             for (char letter = 'a'; letter <= 'z'; letter++) {
-                sb.append(letter).append(":").append(bagOfChars.count(letter))
-                        .append(System.lineSeparator());
+                sb.append(letter).append(":").append(bagOfChars.count(letter)).append(",");
             }
+            sb.deleteCharAt(sb.length() - 1);
         } catch (Exception e) {
             // write to the error view when a problem processing the input data is encountered
             SnapDataException ex = new SnapDataException(e, "Unable to complete counting "
