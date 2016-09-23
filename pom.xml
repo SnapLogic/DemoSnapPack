@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>demosnappack</name>
-        <repositories>
+    <repositories>
         <repository>
             <id>central</id>
             <name>Maven Central</name>
@@ -22,14 +22,70 @@
             </releases>
         </repository>
         <repository>
-            <id>apache snapshots</id>
-            <name>apache snapshots</name>
-            <url>https://repository.apache.org/content/groups/snapshots</url>
+            <id>conjars</id>
+            <url>http://conjars.org/repo</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
             <snapshots>
                 <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>petalslink-public.release</id>
+            <name>PetalsLink Maven 2 Releases Public Repository</name>
+            <url>http://maven.petalslink.com/public</url>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>ignore</checksumPolicy>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>repository.jboss.org-public</id>
+            <name>JBoss repository</name>
+            <url>https://repository.jboss.org/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>twitter-repo</id>
+            <name>Twitter Maven Repository</name>
+            <url>https://maven.twttr.com/</url>
+        </repository>
+        <!-- Disabled Repositories -->
+        <repository>
+            <id>ebmws-public.release</id>
+            <name>eBMWebsourcing Public Repository</name>
+            <url>http://maven.ebmwebsourcing.com/public</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>ebmws-public.snapshot</id>
+            <name>eBMWebsourcing Snapshot Repository</name>
+            <url>http://maven.ebmwebsourcing.com/public-snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>ebmws-public.others</id>
+            <name>eBMWebsourcing Others Repository</name>
+            <url>http://maven.ebmwebsourcing.com/others</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
@@ -340,7 +396,7 @@
             </plugin>
         </plugins>
     </build>
-        <properties>
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jar.finalName>demosnappack-${VERSION}-${sl_build}</jar.finalName>
         <snap>demosnappack</snap>
@@ -388,7 +444,7 @@
         <jython-standalone.version>2.7-b1</jython-standalone.version>
         <slf4j-api.version>1.7.13</slf4j-api.version>
     </properties>
-        <dependencyManagement>
+    <dependencyManagement>
         <dependencies>
             <!--
             Other libraries
@@ -548,4 +604,4 @@
             <version>4.0</version>
         </dependency>
     </dependencies>
-    </project>
+</project>
