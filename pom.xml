@@ -301,7 +301,7 @@
                 <plugin>
                     <groupId>com.snaplogic.tools</groupId>
                     <artifactId>snappack-installer</artifactId>
-                    <version>4.0-SNAPSHOT</version>
+                    <version>4.0</version>
                 </plugin>
             </plugins>
         </pluginManagement>
