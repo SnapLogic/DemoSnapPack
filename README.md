@@ -20,11 +20,11 @@ Sample | Description
 
 ## Sample Pipeline
 
-![Mega Demo Pipeline](https://dl.dropboxusercontent.com/u/3519578/Screenshots/rZkm.png)
+![Mega Demo Pipeline](https://i.imgur.com/ANrkvb5.png)
 
 ## Unit Tests
 
 This repository also includes `SnapTestRunner` unit tests that show the wide range of 
 options available to test Snap code:
 
-![Project Structure Test](https://dl.dropboxusercontent.com/u/3519578/Screenshots/odZU.png)
+![Project Structure Test](https://i.imgur.com/JmRyqcR.png)
