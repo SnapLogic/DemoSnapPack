@@ -301,7 +301,7 @@
                 <plugin>
                     <groupId>com.snaplogic.tools</groupId>
                     <artifactId>snappack-installer</artifactId>
-                    <version>4.0</version>
+                    <version>4.9.0.M1</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -310,8 +310,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <!-- Snaplogic Maven Plugins -->
@@ -437,6 +437,7 @@
         <guice.version>4.0</guice.version>
         <jackson.version>2.4.4</jackson.version>
         <jsdk.version>4.0</jsdk.version>
+        <japi.version>4.0</japi.version>
 
         <commons-io.version>2.4</commons-io.version>
         <guava.version>19.0</guava.version>
@@ -558,8 +559,7 @@
         <dependency>
             <groupId>com.snaplogic</groupId>
             <artifactId>jfilesystem</artifactId>
-            <version>${jsdk.version}</version>
-            <scope>provided</scope>
+            <version>${japi.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -589,7 +589,7 @@
         <dependency>
             <groupId>com.snaplogic</groupId>
             <artifactId>jtest</artifactId>
-            <version>${jsdk.version}</version>
+            <version>${japi.version}</version>
             <scope>test</scope>
             <exclusions>
                 <exclusion>
@@ -601,7 +601,7 @@
         <dependency>
             <groupId>com.snaplogic</groupId>
             <artifactId>jxml</artifactId>
-            <version>4.0</version>
+            <version>${japi.version}</version>
         </dependency>
     </dependencies>
 </project>
