@@ -66,7 +66,6 @@ public class DocGeneratorTest {
 
     // "expectedErrorPath" specifies the folder that contains the
     // "docGenerator_WithExpectedErrorPath_OutputsErrorDocumentCorrectly-err.json" file
-    @Ignore("Disabled until CRLF fix in Fall 2016 release; will pass on LF-based operating systems")
     @TestFixture(snap = DocGenerator.class,
             errors = "error0",
             expectedErrorPath = "data/doc_generator",
