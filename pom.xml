@@ -437,7 +437,7 @@
         <guice.version>4.0</guice.version>
         <jackson.version>2.4.4</jackson.version>
         <jsdk.version>4.0</jsdk.version>
-        <japi.version>4.0</japi.version>
+        <japi.version>4.9.0.M1</japi.version>
 
         <commons-io.version>2.4</commons-io.version>
         <guava.version>19.0</guava.version>
@@ -566,12 +566,6 @@
                     <artifactId>slf4j-api</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.snaplogic</groupId>
-            <artifactId>mrjob</artifactId>
-            <version>${jsdk.version}</version>
-            <scope>provided</scope>
         </dependency>
         <!-- Test dependencies -->
         <dependency>
